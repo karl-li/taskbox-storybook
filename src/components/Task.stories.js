@@ -11,6 +11,13 @@ export default {
   title: 'Task',
   decorators: [withKnobs],
   // Our exports that end in "Data" are not stories.
+  parameters: {
+    assets: [
+      'https://www.learnstorybook.com/intro-to-storybook/ss-browserchrome-taskbox-learnstorybook.png',
+      'https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/cat_weight_other/1800x1200_cat_weight_other.jpg?resize=600px:*',
+      'https://img.huffingtonpost.com/asset/5dcc613f1f00009304dee539.jpeg?cache=QaTFuOj2IM&ops=crop_834_777_4651_2994%2Cscalefit_720_noupscale',
+    ]
+  },
   excludeStories: /.*Data$/,
 };
 
